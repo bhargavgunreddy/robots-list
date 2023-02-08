@@ -4,13 +4,20 @@ Include [Bootstrap](https://getbootstrap.com)'s source Sass and an ES Module ver
 
 ## Edit in browser
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/github-zwnqg6?file=index.html,js%2Fmain.js,scss%2Fstyles.scss,.gitignore)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/github-zwnqg6-2nqbjo?file=README.md)
 
 ## How to use
 
 ```sh
-git clone https://github.com/twbs/examples.git
-cd examples/sass-js-esm/
+git clone 
+cd folder_name
 npm install
 npm start
 ```
+
+1. Used this example setup from bootstrap site
+2. Cloned it and added changes on top of it
+3. Used fetch to make API call
+4. Displayed the results in table
+5. Added a search filed to filter robots by id
+6. Added sorting upon clicking on the column header
