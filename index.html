@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Robots</title>
+  </head>
+  <body>
+    <section class="main-section">
+      <p>
+        Refer to the js file to see the logic to fetch the robots list from api
+      </p>
+
+     
+      <p>
+      <fieldset>
+        <input id="search-field" placeholder="Enter robot id" />
+        <button id="search">
+          <label for="search">Search</label>
+        </button>
+      </fieldset>
+      </p>
+
+      <table id="table">
+        <tr>
+          <th class="table-header" name="robotId">Id</th>
+          <th class="table-header"  name="batteryLevel">Battery level</th>
+          <th class="table-header"  name="x">X co-ordinate</th>
+          <th class="table-header"  name="y">Y co-ordinate</th>
+        </tr>
+        <tbody id="data"></tbody>
+      </table>
+    </section>
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
