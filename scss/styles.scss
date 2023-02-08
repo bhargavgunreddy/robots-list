@@ -88,23 +88,37 @@ $success: #7952b3;
 
 html,
 body {
-  padding: 1.5rem;
+  padding: 0.5rem;
   width: 100%;
   height: 100%;
 }
 
 .main-section {
-  width: 80%;
-  height: 60vw;
-  background-color: bisque;
-  border: 1px solid burlywood;
   padding: 2%;
+}
+
+table,
+tbody {
+  width: 100%;
+  background-color: bisque;
 }
 
 table,
 th,
 td {
   border: 1px solid black;
+}
+
+th {
+  width: 20%;
+  padding: 1%;
+  background-color: coral;
+}
+
+ol {
+  border: 1px solid #7952b3;
+  border-radius: 5px;
+  padding: 5%;
 }
 
 .table-header {

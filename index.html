@@ -7,13 +7,14 @@
     <title>Robots</title>
   </head>
   <body>
+    <h2>Robots list</h2>
     <section class="main-section">
-      <p>
-        <ul>
-        <li>Refer to the js file to see the logic to fetch the robots list from api</li>
-        <li>Clink on any column to sort the table</li>
-        <li>Enter an id in the search field to filter the table </li>
-        </ul>
+      <p id='info'>
+          <ol>
+            <li>The robots list is fetched from API </li>
+            <li>Click on any column to sort the table</li>
+          <li>Enter an id in the search field to filter the table </li>
+          </ol>
       </p>
 
      
@@ -24,6 +25,10 @@
           <label for="search">Search</label>
         </button>
       </fieldset>
+      </p>
+
+      <p>
+        Robots count:<b><span id="robots-count">0</span></b>
       </p>
 
       <table id="table">
