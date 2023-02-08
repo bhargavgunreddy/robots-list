@@ -4,7 +4,7 @@ Include [Bootstrap](https://getbootstrap.com)'s source Sass and an ES Module ver
 
 ## Edit in browser
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/twbs/examples/tree/main/sass-js-esm?file=index.html)
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/github-zwnqg6?file=index.html,js%2Fmain.js,scss%2Fstyles.scss,.gitignore)
 
 ## How to use
 
